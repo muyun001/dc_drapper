@@ -1,0 +1,4 @@
+build_image:
+  script:
+    - docker build -t hub.fxt.cn/dc-wrapper -f Dockerfile .
+    - docker push hub.fxt.cn/dc-wrapper
